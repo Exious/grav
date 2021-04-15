@@ -48,32 +48,3 @@ function deleteAllEvenLengthElems(array) {
   }
   return filtredArray;
 }
-
-console.log(
-  deleter([
-    5,
-    5,
-    9,
-    7,
-    3,
-    3,
-    3,
-    67,
-    3,
-    2,
-    6,
-    `2`,
-    "2",
-    { 2: 2 },
-    { 2: 2 },
-    [9],
-    [9],
-    2,
-    Infinity,
-    Infinity,
-    2,
-    2,
-    NaN,
-    NaN,
-  ])
-);
